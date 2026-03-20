@@ -12,6 +12,13 @@ body {
     color: #1B1B1B;
 }
 
+header {
+    color: #E1624F;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
 .orange {
     color: #E1624F;
     margin-bottom: 8px;
@@ -20,6 +27,7 @@ body {
 
 h1 {
     margin: 0px;
+    font-size: 36px;
 }
 
 #img1 {
@@ -70,11 +78,12 @@ ul {
 
 ol {
     padding-left: 0px;
-
+    list-style-position: initial;
 }
 
-ol li::marker {
+ol, li::marker {
     color: #333333;
+    margin-bottom: 48px;
 
 }
 
@@ -102,17 +111,22 @@ ol li::marker {
 p {
     margin-top: 0px;
     color: #333333;
+    font-size: 16px;
 }
 
 h2 {
     margin-top: 0;
     margin-bottom: 8px;
     color: #1B1B1B;
+    font-size: 32px;
+
 }
 
 h3 {
     margin-top: 20px;
     margin-bottom: 4px;
+    font-size: 28px;
+
 }
 
 .img {
@@ -123,11 +137,29 @@ h3 {
     border-radius: 28px;
 }
 
+.img2 {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    border-radius: 28px;
+}
+
 li {
     margin: 0px;
 }
 
-.card {
-    margin-top: 0px;
-    margin-bottom: 40px solid #D9D9D9;
+.division {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top: 1px solid #D9D9D9;
+}
+
+footer {
+    text-align: center;
+}
+
+.heart {
+    filter: brightness(0) saturate(100%) invert(40%) sepia(90%) saturate(500%) hue-rotate(320deg);
+    vertical-align: middle;
 }
